@@ -5,15 +5,10 @@ const cors = require("cors");
 
 const config = require("./DB");
 const userRoute = require("./routes/UserRoute");
-//var employeeController = require('./controllers/employeeController.js');
-//const employeeRoutes = require("./routes/Employee.route");
+;
 
 const PORT = process.env.PORT || 5000;
 
-//mongoose.set("useNewUrlParser", true);
-//mongoose.set('useUnifiedTopology', true);
-//mongoose.set('useFindAndModify', false);
-//mongoose.set('useCreateIndex', true);
 
 mongoose.connect(config.DB).then(
   () => {
@@ -37,8 +32,7 @@ let corsOptions = {
 
 app.use(cors(corsOptions));
 app.use("/api/users", userRoute);
-//app.use('/employees', employeeController);
-//app.use("/employees", employeeRoutes);
+
 
 app.listen(PORT, () => {
   console.log(`Server is running on PORT ${PORT}`);
