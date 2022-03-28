@@ -10,18 +10,32 @@ import { ProfileComponent } from './profile/profile.component';
 
 import { AuthModule } from './auth/auth.module';
 
+
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+
+
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    ProfileComponent
+    ProfileComponent,
+    
+  
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AuthModule
+    AuthModule,
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule,
+    HttpClientModule
+ 
   ],
+
+
   providers: [],
   bootstrap: [AppComponent]
 })

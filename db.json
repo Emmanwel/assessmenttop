@@ -1,0 +1,53 @@
+{
+  "posts": [
+    {
+      "id": 3,
+      "firstName": "Emmanuel Mukhebi",
+      "title": "C# Developer ii"
+    },
+    {
+      "id": 5,
+      "firstName": "mulumbu",
+      "title": "developer"
+    },
+    {
+      "id": 7,
+      "firstName": "Liam Ayuma",
+      "title": "Engineer"
+    },
+    {
+      "id": 8,
+      "firstName": "Bram Trum",
+      "title": "Student"
+    },
+    {
+      "id": 9,
+      "firstName": "Lilian ",
+      "title": "Doctor"
+    },
+    {
+      "id": 11,
+      "firstName": "jjjjjjjjjjjjjjj",
+      "title": "uuuuu mukhebi"
+    },
+    {
+      "id": 12,
+      "firstName": "kssssssssssssskk",
+      "title": "kssssssss"
+    },
+    {
+      "id": 14,
+      "firstName": "Otieno K otieno",
+      "title": null
+    },
+    {
+      "id": 15,
+      "firstName": "Patrick Nyalego",
+      "title": "yes"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
